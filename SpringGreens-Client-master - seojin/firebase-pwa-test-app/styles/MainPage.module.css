@@ -1,0 +1,67 @@
+.container {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background-color: rgb(218, 218, 218);
+  padding-top: 2.69rem;
+}
+
+.menuBox {
+  width: 22.5rem;
+  height: 3.5rem;
+  position: relative;
+}
+.headBox {
+  display: flex;
+  align-items: center;
+  width: 22.5rem;
+  height: 2.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headBox h3 {
+  margin-left: 1.56rem;
+}
+
+.sampleTimer{
+  width: 5.25rem;
+  height: 1.25rem;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: 1.12rem;
+}
+
+.sampleRe{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.56rem;
+  background-color: grey;
+  
+}
+
+.menuButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menuContent {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 999;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+}
